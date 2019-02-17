@@ -1,0 +1,202 @@
+/*colors
+
+#fffec4 (255,254,196) -- beige
+#ffeeb1 (255,238,177) -- dark beige
+#ffd8a1 (255,216,161) -- light orange
+#ffcb9a (255,203,154) -- dark orange
+#ffbb9a --salmon
+
+*/
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+/*a:link {
+  color: #ffffff;
+}*/
+
+/*.navbar-default .navbar-brand {*/
+.navbar-default {
+    color: #ffffff;
+    font-color: #ffffff;
+    background-color: #878dbf;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 350;
+}
+
+body{
+  background-color: #b9e3c2;
+}
+
+hr{
+    color: #878dbf;
+    border-color: #878dbf;
+}
+
+
+.navbar-header{
+    width:500px;
+    /*margin-left:75px !important;*/
+    color: #ffffff;
+    font-color: #ffffff;
+}
+
+
+.sigline{
+    color: #000000;
+    text-align: right;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+    
+}
+
+
+.navbar-header .navbar-toggle .collapsed {
+  float: right;
+}
+
+.content{
+    margin-top:100px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 350;
+  text-align: center
+}
+
+h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 350;
+  text-align: center
+}
+
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 350;
+  text-align: center;
+}
+
+.box-left {
+  color: #000000;
+  background: #a2d6c8;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.box-right {
+  color: #000000;
+  background: #a2d6c8;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+/*CHECK THIS LATER*/
+.box-single {
+  padding: 50px;
+  margin: 70px;
+}
+
+#summary {
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.8em;
+}
+
+
+#city-sample {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px 20px;
+}
+
+#other-visualizations-photo {
+  padding:10px 10px 10px 10px;
+  width: 100%;
+  height: 100%;
+  background:#85a3c5;
+}
+
+
+.figure:active{
+  border: 5px solid #cc5500;
+}
+
+.jumbotron {
+  color: #fff;
+  background: #cc5500;
+  width: 100%;
+  height: 100%;
+  padding: 25px
+}
+
+.table {
+  color: #fff;
+  background: #cc5500;
+  width: 100%;
+  height: 100%;
+  padding: 15px
+
+}
+
+
+#photo-primary {
+  padding: 20px 20px 20px 20px;
+    background: #85a3c5;
+  width: 100%;
+ }
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+      margin-top: 0;
+  }
+}
+
+
+/*FOOTER FORMATTING*/
+/*establishing the footer and formatting*/
+.footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 30px;
+  margin-top: 40px;
+  background-color: #878dbf;
+}
+/*format the footer's text*/
+.footer-text {
+  margin-top: 2px;
+  color: #ffffff;
+}
+
+/*add a little two-tone stripe (as in the example)*/
+.footer-content {
+  /*margin-top: 4px;*/
+  height: 5px;
+  padding-top: 3px;
+  background-color: #71bbc1;
+}
