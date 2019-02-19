@@ -26,7 +26,6 @@ hr{
 
 .navbar-header{
     width:500px;
-    /*margin-left:75px !important;*/
     color: #ffffff;
     font-color: #ffffff;
 }
@@ -69,14 +68,14 @@ h3 {
 }
 
 /*FORMATTING FOR PAGE CONTENT*/
-.box-left {
+.section-one {
   color: #000000;
   background: #a2d6c8;
   padding: 20px;
   margin-bottom: 60px;
 }
 
-.box-right {
+.section-two {
   color: #000000;
   background: #a2d6c8;
   padding: 20px;
@@ -130,6 +129,10 @@ h3 {
   padding: 25px
 
 }
+/*
+.imageNav-photo.active {
+  border: 3px solid #ff1493;
+}*/
 
 
 #photo-primary {
