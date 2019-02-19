@@ -5,15 +5,6 @@ html{
   min-height: 100%;
 }
 
-.navbar-default {
-    color: #ffffff;
-    font-color: #ffffff;
-    background-color: #878dbf;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 28px;
-    font-weight: 350;
-}
-
 body{
   background-color: #b9e3c2;
 }
@@ -23,7 +14,15 @@ hr{
     border-color: #878dbf;
 }
 
-
+/*navbar aesthetics*/
+.navbar-default {
+    color: #ffffff;
+    font-color: #ffffff;
+    background-color: #878dbf;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 350;
+}
 .navbar-header{
     width:500px;
     color: #ffffff;
@@ -87,18 +86,10 @@ h3 {
   margin: 70px;
 }
 
-#summary {
+#body-text {
   margin: 10px;
   font-size: 17px;
   line-height: 1.8em;
-}
-
-
-#city-sample {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 10px 20px;
 }
 
 #other-visualizations-photo {
