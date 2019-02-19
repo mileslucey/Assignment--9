@@ -129,16 +129,19 @@ h3 {
   padding: 25px
 
 }
-/*
-.imageNav-photo.active {
-  border: 3px solid #ff1493;
-}*/
 
+#other-visualizations-photo:hover{
+  opacity:0.3;
+}
 
 #photo-primary {
   padding: 20px 20px 20px 20px;
     background: #85a3c5;
   width: 100%;
+ }
+
+ #photo-primary:hover {
+  opacity:0.3;
  }
 
 .row.row-grid [class*="col-"] + [class*="col-"] {
