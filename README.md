@@ -11,5 +11,5 @@
     * One "styles.css" file in the "Stylesheets" folder containing the code for a lot of the website's aesthetic properties
     * Four HTML files in the "Dropdown Pages" folder; each containing a web page for each of the analysis' graphs
     * Four PNG files in the "Resources" folder; each containing a graph used in the website
-    * One "cities.csv" file in the "Resources" folder containing the data used in the analysis
+    * One "cities.csv" file in the "Resources" folder containing the data used in the original analysis
     
